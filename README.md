@@ -71,7 +71,7 @@ Before you begin, ensure you have met the following requirements:
         }
     }
 ```
-Acknowledgments
+## Acknowledgments
 - This project was created as a learning exercise.
 - Thanks to [OpenWeatherMap](https://openweathermap.org/) for providing weather data.
 - Special thanks to the [Express](https://expressjs.com/) and [axios](https://axios-http.com/) libraries for making this project possible.
