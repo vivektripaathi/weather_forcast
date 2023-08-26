@@ -1,11 +1,8 @@
 <%- include('partials/header.ejs'); -%>
 
-    <div style="width: 100%;  margin: 200px auto; text-align: center;">
+<form action="/" method="post">
+    <input type="text" placeholder="Enter place names seperat them by ," name = input>
+    <input type="submit" value="Get Weather">
+</form>
 
-        <form action="/" method="post">
-            <input type="text" name="input" placeholder="City Names seperated by ,">
-            <button type="submit" class="element button" > Go ->  </button>
-        </form>
-    </div>
-
-    <%- include('partials/footer.ejs'); -%>
+<%- include('partials/footer.ejs'); -%>

@@ -29,7 +29,6 @@ app.post('/', async (req, res)=>{
     const  input   = req.body.input
     const city_names = input.split(', ')
     cities['cities'] = city_names
-    console.log(cities);
     const response = await axios({
         method: 'post',
         url: `http://localhost:${PORT}${apiEndpoint}/getWeather`,
